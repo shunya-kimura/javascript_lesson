@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM操作の例</title>
+</head>
+<body>
+    <h1 id="title">最初のタイトル</h1>
+    <button onclick="changeTitle()">タイトルを変更</button>
+
+    <script>
+        function changeTitle() {
+            document.getElementById("title").innerText = "新しいタイトル"
+        }
+    </script>
+</body>
+</html>
